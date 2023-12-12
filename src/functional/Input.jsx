@@ -23,7 +23,7 @@ export default function Input(props) {
       if(props.editData.index !== ''){
         props.updateTodo(props.editData.index, todo);
       }else{
-        props.addTodo(todo)
+        props.inputData(todo)
       }
     } else {
       setError(true)
